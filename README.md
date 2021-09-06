@@ -6,15 +6,22 @@
 - yarn add @types/express -D
 - yarn add typescript -D
 - yarn tsc --init
+- yarn add uuid
+- yarn add @types/uuid -D
+- yarn add ts-node-dev -D **para start** 
 
-- yarn add ts-node-dev -D para start 
+- SCRIPTS package.json
+
 "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
 
 - Desabilitar o "strict": true, no arquivo tsconfig.json
 
-- Arquivo do debug
+## DEBUG
+- Arquivo do debug *escolher:* **To customize Rum and Debug create a launch.json file**
+Opção Node.js que abrirá o arquivo para colocarmos as configurações que estão abaixo.
+
 {
   // Use IntelliSense to learn about possible attributes.
   // Hover to view descriptions of existing attributes.
@@ -32,8 +39,7 @@
   ]
 }
 
-- yarn add uuid
-- yarn add @types/uuid -D
+
 
 
 
