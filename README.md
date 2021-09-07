@@ -10,7 +10,12 @@
 - yarn add @types/uuid -D
 - yarn add ts-node-dev -D **para start** 
 
-- SCRIPTS package.json
+## UPLOADS DE ARQUIVOS
+
+- yarn add multer
+- yarn add @types/multer -D
+
+## SCRIPTS package.json
 
 "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
