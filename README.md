@@ -8,7 +8,8 @@
 - yarn tsc --init
 - yarn add uuid
 - yarn add @types/uuid -D
-- yarn add ts-node-dev -D **para start** 
+- yarn add ts-node-dev -D **para start**
+- yarn add csv-parse   **ler arquivos vsc**
 
 ## UPLOADS DE ARQUIVOS
 
