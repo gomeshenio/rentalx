@@ -9,7 +9,18 @@
 - yarn add uuid
 - yarn add @types/uuid -D
 - yarn add ts-node-dev -D **para start**
-- yarn add csv-parse   **ler arquivos vsc**
+## Ler arquivos vsc
+- yarn add csv-parse   
+## Documentação com SWAGGER
+- yarn add swagger-ui-express
+- yarn add @types/swagger-ui-express -D
+
+- yarn add 
+- yarn add 
+- yarn add 
+- yarn add 
+- yarn add 
+- yarn add 
 
 ## UPLOADS DE ARQUIVOS
 
